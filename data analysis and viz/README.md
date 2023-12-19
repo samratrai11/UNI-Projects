@@ -34,3 +34,6 @@ b.    Journal should include an introduction, the model(s) used – literatur
  
 3.    Presentation: Students will also tell their story with a presentation to their workshop group, presentation should be no longer than 10 minutes. All students in the audience will be expected to ask questions and give feedback to the presenter.
 
+
+npm install
+
