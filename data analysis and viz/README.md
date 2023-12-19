@@ -3,30 +3,29 @@ DATA ANALYSIS AND VISUALISATION
 This coursework aims to prepare data for analysis, implement, a model and tell a story by visualising the data within the chosen scenario. This is an individual coursework. 
 
 Coursework Specification:
- 
- 
 Scenario: A topic needs to be chosen by the student and agreed with the workshop tutor; students are allowed to pick any topic they are interested in, and they are required to find their data from any source they want to. 
  
+
 Some example data sources are:
 Ø  https://www.data.gov.uk/
 Ø  https://data.london.gov.uk/
 Ø  https://www.ons.gov.uk/
 Ø  https://www.kaggle.com/
-Ø  …
+
  
 Some example topics are: 
 Ø  Grouping customers by similarity to avoid customer retention
 Ø  Finding items to sell together at a local clothing shop
 Ø  What is the profit trend of a particular product?
 Ø  Is there a correlation between life expectancy and education level?
-Ø  … 
+
  
 Data analysis requirements and marking scheme:
  
-1.    Continuous Development :
-a.    Students need to show their progress to their workshop tutor weekly, it needs to be evidenced clearly. 
-b.    A completed Project proposal needs to be shown to the tutor on Week 4.
-c.     Students are advised to follow the Data Analysis Lifecycle steps while progressing on their chosen topic.
+1.Continuous Development :
+a.Students need to show their progress to their workshop tutor weekly, it needs to be evidenced clearly. 
+b.A completed Project proposal needs to be shown to the tutor on Week 4.
+c.Students are advised to follow the Data Analysis Lifecycle steps while progressing on their chosen topic.
  
  
 2.    Academic Journal : 
