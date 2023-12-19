@@ -1,0 +1,23 @@
+library(gamlss)
+library(readr)
+superstore <- read.csv("~/Desktop/supermarket sales dataset_CW.csv")
+names(superstore)
+set.seed(1143)
+index<-sample(c('TRUE','FALSE'),dim(superstore)[1],replace=TRUE,
+              prob=c(0.8,0.2))
+index<-as.logical(index)
+superstorenew<-subset(superstore,index)
+dim(superstorenew)
+head(superstorenew,5)
+r1<- gamlss(superstorenew$Product.line~superstorenew$Payment+superstorenew$Quantity+superstorenew$Unit.price+superstorenew$Gender,superstorenew$Customer.type,superstorenew$City,family=EXP,data=superstorenew)
+plot(r1)
+r2<- gamlss(superstorenew$Quantity~superstorenew$Payment+superstorenew$Unit.price,family=GB2,data=superstorenew)
+plot(r2)
+r3<-gamlss(superstorenew$Unit.price~superstorenew$Payment+superstorenew$Quantity,family=BCT,data=superstorenew)
+plot(r3)
+which(index==FALSE)[1]
+summary(r3)
+summary(r2)
+summary(r1)
+wp(r1)
+
