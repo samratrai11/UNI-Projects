@@ -5,10 +5,15 @@ The emphasis is on writing the report, so producing just computer output it is n
 Also, any general comments about the models used (i.e. GAMLSS) not related to the data analysis itself it will be at best ignored or at worst penalised. 
 
 The output should be complimented with intelligent comments and explanations. The coursework consists of the following: 
+
 •	Each student is given two data sets. 
+
 •	Each group of students is required to find a third data set, related to their own interest. 
+
 •	Each student is expected to analyse the first two data sets following the instructions given below. 
+
 •	For the third data set each student is required to show their own initiative in analysing their subsample of the data following the instructions given below. The analysis should include a preliminary data analysis using graphics, a statistical analysis using GAMLSS, and intelligent comments on the results. 
+
 •	Each student should write a small report (less than 5000 words) describing how they have done the three analyses and describing their results. Section 2 gives instructions on writing the report. 
 
 1 The data
